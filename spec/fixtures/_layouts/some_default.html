@@ -1,0 +1,8 @@
+---
+
+---
+
+Using `liquify`: {{ page.with_filter | liquify }}
+Without using `liquify`: {{ page.without_filter }}
+Using `markdownify` first: {{ page.markdownify_first | markdownify | liquify }}
+Using `markdownify` second: {{ page.markdownify_second | liquify | markdownify }}
