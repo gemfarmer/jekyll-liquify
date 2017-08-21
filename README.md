@@ -17,6 +17,38 @@ gems:
   - jekyll-liquify
 ```
 
+To use in your project, add liquid tags to front matter and use the `liquify` filter to parse it:
+
+**example.md**
+
+```
+---
+title: Welcome to {{ page.title_variable }}
+title_variable: example
+---
+
+# Welcome to {{ title | liquify }}!
+
+<!-- This will output the following -->
+>> <h1>Welcome to example!</h1>
+```
+
+You can use it in conjunction with `markdownify`, but `liquify` has to go first:
+
+**example.md**
+
+```
+---
+title: Welcome to **{{ page.title_variable }}**
+title_variable: example
+---
+
+# Welcome to {{ title | liquify | markdownify }}!
+
+<!-- This will output the following -->
+>> <h1>Welcome to <strong>example</strong>!</h1>
+```
+
 ## Testing
 
 1. `script/bootstrap`
