@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-liquify"
   spec.summary       = "A Jekyll filter that can parse Liquid in front matter."
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Brian Hedberg"]
   spec.email         = "briansheahedberg@gmail.com"
   spec.homepage      = "https://github.com/gemfarmer/jekyll-liquify"
@@ -15,10 +15,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "redcarpet", "~> 3.1"
-  spec.add_runtime_dependency "liquid", [">= 2.5"]
+  spec.add_runtime_dependency "liquid", [">= 2.5", "< 5.0"]
 
-  spec.add_development_dependency "jekyll", [">= 2.0", "< 4.0"]
+  spec.add_development_dependency "jekyll", [">= 2.0", "< 5.0"]
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "bundler", "~> 1.6"
 end
