@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-liquify"
   spec.summary       = "A Jekyll filter that can parse Liquid in front matter."
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Brian Hedberg"]
   spec.email         = "briansheahedberg@gmail.com"
   spec.homepage      = "https://github.com/gemfarmer/jekyll-liquify"
