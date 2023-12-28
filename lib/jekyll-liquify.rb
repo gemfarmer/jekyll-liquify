@@ -12,4 +12,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_filter(LiquidFilter)
+Liquid::Template.register_filter(Jekyll::LiquifyFilter)
