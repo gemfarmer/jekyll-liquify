@@ -4,8 +4,8 @@
 *
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-liquify.svg)](https://rubygems.org/gems/jekyll-liquify)
-[![Build Status](https://img.shields.io/travis/gemfarmer/jekyll-liquify/master.svg)](https://travis-ci.org/gemfarmer/jekyll-liquify)
-[![Dependency Status](https://img.shields.io/gemnasium/gemfarmer/jekyll-liquify.svg)](https://gemnasium.com/gemfarmer/jekyll-liquify)
+[![Rubocop](https://github.com/gemfarmer/jekyll-liquify/actions/workflows/rubocop.yml/badge.svg)](https://github.com/gemfarmer/jekyll-liquify/actions/workflows/rubocop.yml)
+[![RSpec](https://github.com/gemfarmer/jekyll-liquify/actions/workflows/ruby.yml/badge.svg)](https://github.com/gemfarmer/jekyll-liquify/actions/workflows/ruby.yml)
 
 ## Usage
 

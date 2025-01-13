@@ -7,3 +7,9 @@ defaults:
       type: page
     values:
       layout: some_default
+
+plugins:
+  - jekyll-liquify
+
+whitelist:
+  - jekyll-liquify

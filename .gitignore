@@ -1,4 +1,7 @@
+/.idea
+.ruby-version
 *.gem
-Gemfile.lock
 spec/dest
 .bundle
+/coverage
+Gemfile.lock

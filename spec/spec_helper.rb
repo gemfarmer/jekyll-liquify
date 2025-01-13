@@ -1,15 +1,20 @@
-require 'jekyll'
-require File.expand_path('../lib/jekyll-liquify', File.dirname(__FILE__))
+# frozen_string_literal: true
+
+require 'rspec'
+require 'rspec/its'
+require 'simplecov'
+
+SimpleCov.start
+
+require 'jekyll/liquify_filter'
 
 Jekyll.logger.log_level = :error
 
 RSpec.configure do |config|
-  config.run_all_when_everything_filtered = true
-  config.filter_run :focus
   config.order = 'random'
 
-  SOURCE_DIR = File.expand_path("../fixtures", __FILE__)
-  DEST_DIR   = File.expand_path("../dest",     __FILE__)
+  SOURCE_DIR = File.expand_path('fixtures', __dir__)
+  DEST_DIR   = File.expand_path('dest',     __dir__)
 
   def source_dir(*files)
     File.join(SOURCE_DIR, *files)

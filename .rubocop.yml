@@ -1,0 +1,39 @@
+require:
+  - rubocop-rake
+  - rubocop-rspec
+
+inherit_from:
+  - .rubocop-relaxed-2.5.yml
+  - .rubocop_todo.yml
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3
+  SuggestExtensions: true
+  UseCache: true
+  DefaultFormatter: progress
+  DisplayStyleGuide: true
+  DisplayCopNames: true
+  Exclude:
+    - "**/rubocop"
+    - "**/vendor/bundle/**/*"
+  Include:
+    - '**/*.rb'
+    - '**/*.gemfile'
+    - '**/*.gemspec'
+    - '**/*.rake'
+    - '**/*.ru'
+    - '**/Gemfile'
+    - '**/Rakefile'
+
+Layout/HashAlignment:
+  Enabled: true
+  EnforcedColonStyle: table
+
+Style/Dir:
+  Enabled: false
+
+RSpec/ContextWording:
+  Enabled: true
+
+
