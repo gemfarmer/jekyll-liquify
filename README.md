@@ -1,11 +1,12 @@
 # Jekyll Liquify
 
-*A Jekyll filter that can parse Liquid in front matter
-*
+A Jekyll filter that can parse Liquid in front matter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-liquify.svg)](https://rubygems.org/gems/jekyll-liquify)
-[![Rubocop](https://github.com/gemfarmer/jekyll-liquify/actions/workflows/rubocop.yml/badge.svg)](https://github.com/gemfarmer/jekyll-liquify/actions/workflows/rubocop.yml)
-[![RSpec](https://github.com/gemfarmer/jekyll-liquify/actions/workflows/ruby.yml/badge.svg)](https://github.com/gemfarmer/jekyll-liquify/actions/workflows/ruby.yml)
+
+[![Rubocop](https://github.com/kigster/jekyll-liquify/actions/workflows/rubocop.yml/badge.svg)](https://github.com/kigster/jekyll-liquify/actions/workflows/rubocop.yml)
+
+[![RSpec](https://github.com/kigster/jekyll-liquify/actions/workflows/ruby.yml/badge.svg)](https://github.com/kigster/jekyll-liquify/actions/workflows/ruby.yml)
 
 ## Usage
 
