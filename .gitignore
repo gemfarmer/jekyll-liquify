@@ -4,4 +4,3 @@
 spec/dest
 .bundle
 /coverage
-Gemfile.lock
